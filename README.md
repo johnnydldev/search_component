@@ -1,2 +1,4 @@
-# practica_3_lit
-practicas de conocimientos adquiridos en lit
+#Lit practice 
+Knowledges practice about Lit (Lit element) technology for web components create.
+It's required execute the Lit installation command.
+
