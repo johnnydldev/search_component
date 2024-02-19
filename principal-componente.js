@@ -128,12 +128,15 @@ export class PrincipalComponente extends LitElement {
 
     }
 
+<<<<<<< HEAD
     /*
     connectedCallback(){
         super.connectedCallback();
         window.addEventListener('click', this.filterPoke);
     }*/
 
+=======
+>>>>>>> fefdcec (Update of search component, charge of img folder.)
     render() {
         return html`
 
@@ -243,6 +246,7 @@ export class PrincipalComponente extends LitElement {
         this._selectType.options[this._selectType.selectedIndex= 0];
     }
 
+<<<<<<< HEAD
     /*
         filtrado sencillo, carga de datos normal.
         ${this.pokemones.map(
@@ -258,6 +262,8 @@ export class PrincipalComponente extends LitElement {
     
     */
 
+=======
+>>>>>>> fefdcec (Update of search component, charge of img folder.)
     selectName(e){
     
         this.filteredPokemon = [];
@@ -285,6 +291,7 @@ export class PrincipalComponente extends LitElement {
 
     }
 
+<<<<<<< HEAD
     /*
     pintarPoke(){
         if(this.filteredPokemon.length>0){
@@ -294,6 +301,8 @@ export class PrincipalComponente extends LitElement {
     */
 
 
+=======
+>>>>>>> fefdcec (Update of search component, charge of img folder.)
     fillSelectRarity(){
         this.pokemones.forEach((existente)=>{
             if(!this.fillRarityPoke.includes(existente['pokemon-rarity'])){
